@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta name="google-site-verification" content="dGUUkB_gNbh0UmdzlG26A-icTRoczYw6CFBjdpbC48I" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>میلاد یوسفی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    --bg: #10141a;
+    --bg-soft: #171d25;
+    --ink: #e9ecef;
+    --ink-dim: #97a2ad;
+    --line: #2a323c;
+    --accent: #c89b4a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 64px 20px 80px;
+  }
+  .page { width: 100%; max-width: 640px; }
 
+  .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .rings {
+    position: absolute;
+    top: -60px;
+    width: 360px;
+    height: 360px;
+    z-index: 0;
+    opacity: 0.55;
+  }
+  .photo-wrap {
+    position: relative;
+    z-index: 1;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 0 6px var(--bg-soft), 0 12px 30px rgba(0,0,0,0.45);
+    margin-bottom: 28px;
+  }
+  .photo-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  h1 {
+    font-size: clamp(28px, 5vw, 36px);
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+    position: relative; z-index: 1;
+  }
+  .role {
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 4px;
+    position: relative; z-index: 1;
+  }
+  .sub {
+    color: var(--ink-dim);
+    font-size: 14px;
+    margin: 0;
+    position: relative; z-index: 1;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--line) 20%, var(--line) 80%, transparent);
+    margin: 8px 0 36px;
+  }
+
+  .bio p {
+    font-size: 16.5px;
+    color: var(--ink);
+    margin: 0 0 22px;
+    max-width: 62ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bio strong { color: var(--accent); font-weight: 600; }
+  .bio .quote {
+    color: var(--ink-dim);
+    font-size: 15px;
+    font-style: normal;
+    border-right: 2px solid var(--accent);
+    padding-right: 16px;
+    margin-top: 30px;
+  }
+
+  .contact {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact a {
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 15px;
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    padding: 12px 22px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+  .contact a:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .contact svg { flex-shrink: 0; }
+
+  footer {
+    text-align: center;
+    color: #4b5561;
+    font-size: 12.5px;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 420px) {
+    .rings { width: 300px; height: 300px; top: -50px; }
+    body { padding: 48px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="hero">
+      <svg class="rings" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="180" cy="180" r="176" fill="none" stroke="#c89b4a" stroke-opacity="0.15" stroke-width="1"/>
+        <circle cx="180" cy="180" r="148" fill="none" stroke="#c89b4a" stroke-opacity="0.22" stroke-width="1"/>
+        <circle cx="180" cy="180" r="120" fill="none" stroke="#c89b4a" stroke-opacity="0.3" stroke-width="1"/>
+      </svg>
+      <div class="photo-wrap">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABD8AAAWnCAIAAADL6U+DAABcQWNhQlgAAFxBanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAXBtqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjBiYzZjY2I0LTFlZTEtNDA4ZC04NzVkLTM2N2M4Yjc0YWE0NAAAAAxXanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAJ0Wp1bWIAAAA7anVtZEDLDDK7ikidpwsq1vR/Q2kTYzJwYS5pY29uAAAAABhjMnNoYYUIrVPFCz0tcb0ElT8PYAAAABdiZmRiAGltYWdlL3N2Zyt4bWwAAAAJd2JpZGI8c3ZnIHdpZHRoPSI3MTYiIGhlaWdodD0iNzE2IiB2aWV3Qm94PSIwIDAgNzE2IDcxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUwOC43NDkgMzE3LjM5OUM1MTYuNzc3IDI4Ny331111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110302000216b349ef8f5ec477e685fbd295c55535c52c2c2f0f423be2a3aefcf692c5d4fb1b15fdfc554e17e335bd154d86cde6e246726190fbdc5a93e314ed3a910129792e34f6d4d12c021175ed704a2fe578efcf01f1ebff5bd67634d123d49ed6a2569e5f5f4b0ea9a42fbd038b3236e768160e181c08000" />
+      </div>
+      <h1>میلاد یوسفی</h1>
+      <div class="role">توسعه‌دهنده وب / متخصص SEO</div>
+      <div class="sub">خوش‌آمدید به وب‌سایت شخصی من</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="bio">
+      <p>
+        سلام! من <strong>میلاد یوسفی</strong> هستم. علاقه‌مند به دنیای وب، کدنویسی و بهینه‌سازی موتورهای جستجو.
+      </p>
+      <div class="quote">
+        «مسیرهای طولانی با قدم‌های کوچک و پیوسته طی می‌شوند.»
+      </div>
+    </div>
+
+    <div class="contact">
+      <a href="mailto:info@miladyousefi.com">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        ارتباط با من
+      </a>
+    </div>
+
+    <footer>
+      &copy; کلیه حقوق محفوظ است.
+    </footer>
+  </div>
+</body>
+</html>
