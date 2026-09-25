@@ -32,7 +32,7 @@
             box-sizing: border-box;
         }
 
-        /* جلوگیری قطعی از اسکرول افقی در گوشی */
+        /* جلوگیری قطعی از اسکرول افقی در موبایل */
         html, body {
             width: 100%;
             max-width: 100%;
@@ -45,7 +45,7 @@
             min-height: 100vh;
         }
 
-        /* --- پس‌زمینه زنده امواج رادیویی (اصلاح‌شده برای موبایل) --- */
+        /* --- پس‌زمینه زنده امواج رادیویی --- */
         .radio-waves-bg {
             position: fixed;
             top: 0;
@@ -87,7 +87,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 60px 15px 30px;
+            padding: 50px 15px 25px;
             text-align: center;
             position: relative;
             width: 100%;
@@ -134,7 +134,7 @@
         }
 
         .hero h1 {
-            font-size: 2.2rem;
+            font-size: 2.1rem;
             font-weight: 900;
             background: var(--gold-gradient);
             -webkit-background-clip: text;
@@ -144,7 +144,7 @@
         }
 
         .hero h2 {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: #e2e8f0;
             font-weight: 500;
             margin-bottom: 18px;
@@ -189,7 +189,7 @@
             background: var(--bg-card);
             border: 1px solid rgba(245, 158, 11, 0.25);
             border-radius: 18px;
-            padding: 26px 20px;
+            padding: 24px 18px;
             margin-bottom: 20px;
             backdrop-filter: blur(16px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
@@ -198,11 +198,11 @@
         }
 
         .card-title {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             color: var(--gold-light);
             border-right: 4px solid var(--gold-primary);
             padding-right: 12px;
-            margin-bottom: 18px;
+            margin-bottom: 16px;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -219,13 +219,13 @@
             background: rgba(10, 15, 30, 0.7);
             border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 12px;
-            padding: 18px;
+            padding: 16px;
             border-right: 3px solid var(--blue-glow);
         }
 
         .service-box h4 {
             color: #ffffff;
-            font-size: 1rem;
+            font-size: 0.98rem;
             margin-bottom: 8px;
         }
 
@@ -280,12 +280,12 @@
 
         /* بهینه‌سازی مخصوص موبایل */
         @media (max-width: 600px) {
-            .hero { padding: 40px 12px 20px; }
-            .hero h1 { font-size: 1.65rem; }
-            .hero h2 { font-size: 0.98rem; }
-            .card { padding: 20px 15px; border-radius: 14px; }
-            .card-title { font-size: 1.1rem; }
-            .btn-call { font-size: 0.92rem; padding: 12px 18px; width: 100%; }
+            .hero { padding: 35px 10px 18px; }
+            .hero h1 { font-size: 1.6rem; }
+            .hero h2 { font-size: 0.95rem; }
+            .card { padding: 18px 14px; border-radius: 14px; }
+            .card-title { font-size: 1.08rem; }
+            .btn-call { font-size: 0.92rem; padding: 12px 16px; width: 100%; }
             .badge { font-size: 0.78rem; padding: 5px 10px; }
         }
     </style>
